@@ -1,23 +1,26 @@
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512"><svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect x="16" y="16" width="480" height="480" rx="96" ry="96" fill="#0B0B0B"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" ry="96" fill="#0B0B0B"></rect>
 
-  <!-- Network lines -->
-  <line x1="256" y1="120" x2="140" y2="256" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
-  <line x1="256" y1="120" x2="372" y2="256" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
-  <line x1="140" y1="256" x2="256" y2="392" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
-  <line x1="372" y1="256" x2="256" y2="392" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <!-- Scaled white construction -->
+  <g transform="translate(256 256) scale(1.3) translate(-256 -256)">
+    <!-- Network lines -->
+    <line x1="256" y1="120" x2="140" y2="256" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"></line>
+    <line x1="256" y1="120" x2="372" y2="256" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"></line>
+    <line x1="140" y1="256" x2="256" y2="392" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"></line>
+    <line x1="372" y1="256" x2="256" y2="392" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"></line>
 
-  <!-- Nodes -->
-  <circle cx="256" cy="120" r="18" fill="#FFFFFF"/>
-  <circle cx="140" cy="256" r="18" fill="#FFFFFF"/>
-  <circle cx="372" cy="256" r="18" fill="#FFFFFF"/>
-  <circle cx="256" cy="392" r="18" fill="#FFFFFF"/>
+    <!-- Nodes -->
+    <circle cx="256" cy="120" r="18" fill="#FFFFFF"></circle>
+    <circle cx="140" cy="256" r="18" fill="#FFFFFF"></circle>
+    <circle cx="372" cy="256" r="18" fill="#FFFFFF"></circle>
+    <circle cx="256" cy="392" r="18" fill="#FFFFFF"></circle>
 
-  <!-- Central catalyst crystal -->
-  <polygon points="256,190 310,256 256,322 202,256"
-           fill="#FFFFFF"/>
+    <!-- Central catalyst crystal -->
+    <polygon points="256,170 330,256 256,342 182,256" fill="#FFFFFF"></polygon>
 
-  <polygon points="256,210 290,256 256,302 222,256"
-           fill="#E5E5E5"/>
-</svg>
+    <polygon points="256,200 305,256 256,312 207,256" fill="#E5E5E5"></polygon>
+  </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
